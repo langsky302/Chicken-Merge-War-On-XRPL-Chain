@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="WaveListWrap" style="flex-grow: 0; height: auto; width: 100%; margin-right: 10px; flex-direction: column; flex-wrap: wrap; margin-left: 10px; flex-shrink: 1; justify-content: space-between; align-items: stretch; align-self: center;">
+        <ui:Label tabindex="-1" text="WAVE LIST" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WaveListTitle" style="-unity-font-style: bold; font-size: 16px; color: rgb(255, 255, 255); background-color: rgb(197, 145, 3); -unity-text-align: upper-center; margin-bottom: 10px; align-self: stretch;" />
+        <ui:ListView focusable="true" name="WaveListView" virtualization-method="DynamicHeight" show-foldout-header="false" style="flex-grow: 1; height: auto; min-height: auto; max-height: none; max-width: none; align-items: stretch; flex-wrap: nowrap; flex-direction: column; align-self: stretch; justify-content: space-between; flex-shrink: 1;" />
+        <ui:Button text="Add New Wave" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddNewWaveBtn" style="-unity-font: initial; -unity-font-style: bold; background-color: rgb(75, 144, 0); color: rgb(255, 255, 255); flex-direction: column; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; width: 75%; align-items: stretch; justify-content: space-between; align-self: center; flex-wrap: nowrap; margin-top: 15px; margin-bottom: 15px;" />
+    </ui:VisualElement>
+</ui:UXML>

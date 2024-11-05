@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/UDEV/WaveManager%20ToolKit/Scripts/Editor/UI_Layout/USS/WaveTK_Window.uss?fileID=7433441132597879392&amp;guid=09cdbf94c3e98af488aaae4704a3dcf3&amp;type=3#WaveTK_Window" />
+    <ui:VisualElement name="SpawnerItemWrapper" style="flex-grow: 1; flex-direction: row;">
+        <ui:Foldout name="SpawnerItemFoldout" style="-unity-font-style: normal; font-size: 16px; flex-direction: column; white-space: normal; text-overflow: ellipsis; -unity-text-align: upper-left; align-items: stretch; align-self: stretch; width: 100%; padding-top: 0;">
+            <ui:VisualElement name="SpawnerItem" style="flex-grow: 1; flex-direction: column; width: auto; flex-wrap: nowrap; align-items: stretch; align-self: stretch; justify-content: space-between; margin-right: 0; margin-left: 0; padding-left: 10px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; background-color: rgb(70, 70, 70); margin-bottom: 10px;">
+                <ui:VisualElement name="SpawnerItemTop" style="flex-grow: 1; flex-direction: row-reverse; justify-content: space-between; margin-left: 0; width: 100%;">
+                    <ui:EnumField label="Type" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" value="Center" name="SpawnerType" style="width: 99%; font-size: 14px; -unity-font-style: normal;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="SpawnerItemContent" style="flex-grow: 1; flex-direction: column; justify-content: space-between; min-width: 100%; min-height: 40px;" />
+            </ui:VisualElement>
+        </ui:Foldout>
+        <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DeleteSpawnerBtn" style="width: 20px; flex-direction: column; background-color: rgb(185, 0, 14); color: rgb(255, 255, 255); -unity-font-style: bold; -unity-font: initial; justify-content: space-between; align-self: auto; align-items: center; height: 20px; font-size: 16px;" />
+    </ui:VisualElement>
+</ui:UXML>

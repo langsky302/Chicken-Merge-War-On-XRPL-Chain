@@ -1,0 +1,1 @@
+{"id":"1705915318854485526140","thumb":{"instanceID":48040},"durability":20.0,"level":1,"maxLevel":1000,"repairPrice":35,"upgradePrice":150,"durabilityUp":15.0,"repairPriceUp":25,"upgradePriceUp":80,"durabilityUpFactor":2.0}

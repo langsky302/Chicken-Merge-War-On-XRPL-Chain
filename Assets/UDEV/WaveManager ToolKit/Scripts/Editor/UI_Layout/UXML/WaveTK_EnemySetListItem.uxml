@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="EnemySetListItem" style="flex-grow: 1; flex-direction: row; width: 100%; justify-content: space-between;">
+        <uie:PropertyField name="EnemyPoolKey" style="width: 35%;" />
+        <ui:SliderInt picking-mode="Ignore" label="Enemy Weight" value="42" high-value="100" name="EnemyWeight" style="width: 20%;" />
+        <ui:ProgressBar value="22" title="Spawn Rate" name="SpawnRateProg" style="width: 35%;" />
+        <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DeleteEnemyBtn" style="width: 7%; align-self: stretch; justify-content: space-between; -unity-font-style: bold; color: rgb(255, 255, 255); background-color: rgb(209, 18, 0);" />
+    </ui:VisualElement>
+</ui:UXML>

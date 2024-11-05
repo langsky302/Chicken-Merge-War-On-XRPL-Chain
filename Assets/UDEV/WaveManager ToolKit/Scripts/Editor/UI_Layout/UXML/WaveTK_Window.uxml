@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/UDEV/WaveManager%20ToolKit/Scripts/Editor/UI_Layout/USS/WaveTK_Window.uss?fileID=7433441132597879392&amp;guid=09cdbf94c3e98af488aaae4704a3dcf3&amp;type=3#WaveTK_Window" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; height: auto; width: auto; min-width: 600px; min-height: 480px; white-space: normal; flex-direction: column; flex-wrap: nowrap; visibility: visible; overflow: visible; align-self: stretch; justify-content: space-between; align-items: stretch;">
+        <ui:VisualElement name="Header" style="flex-grow: 1; height: 5%; background-color: rgba(156, 156, 154, 0); flex-direction: column; flex-wrap: nowrap; justify-content: space-between; align-self: center;">
+            <ui:Label tabindex="-1" text="Wave Controller Editting" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WindowTitle" style="-unity-text-align: middle-center; -unity-font: url(&apos;project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=51b005a3a5cf71b4cad094cce99d0aae&amp;type=3#NotInter-Regular&apos;); -unity-font-style: bold; font-size: 18px; height: 39px; flex-direction: column-reverse; align-self: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Content" style="flex-grow: 1; height: 90%; background-color: rgba(255, 0, 0, 0); flex-direction: column; justify-content: space-between; align-self: flex-end; align-items: auto; width: 100%;">
+            <ui:VisualElement name="ContentWrap" style="flex-grow: 1; flex-direction: row; justify-content: space-between; align-self: center; align-items: flex-start; width: 95%; flex-wrap: nowrap;">
+                <ui:VisualElement name="LeftContent" style="flex-grow: 1; width: 20%; align-self: stretch; justify-content: space-between; flex-wrap: nowrap; align-items: stretch; margin-left: 0; margin-right: 10px;" />
+                <ui:VisualElement name="RightContent" style="flex-grow: 1; align-self: stretch; justify-content: space-between; width: 70%; align-items: stretch; margin-left: 10px;">
+                    <ui:Foldout text="Spawn Position Settings" value="false" name="Foldout" style="-unity-font-style: normal; font-size: 14px; display: none;">
+                        <ui:VisualElement name="WaveCtrSettings" style="flex-grow: 1; height: 30%; width: 100%;" />
+                    </ui:Foldout>
+                    <ui:VisualElement name="SpawnerList" style="flex-grow: 1; height: 68%; width: 100%; margin-top: 10px; margin-bottom: 10px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="Developed by UDEV TEAM" parse-escape-sequences="true" display-tooltip-when-elided="true" name="copyright-mark" style="-unity-font-style: bold-and-italic; -unity-text-align: upper-center; color: rgb(128, 127, 127); margin-bottom: 5px; position: relative; top: auto; left: auto; flex-grow: 1; flex-shrink: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

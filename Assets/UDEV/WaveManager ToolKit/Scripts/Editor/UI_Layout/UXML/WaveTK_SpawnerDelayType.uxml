@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1;">
+        <uie:PropertyField name="TotalEnemy" />
+        <uie:PropertyField name="RandomTimeSpawn" />
+        <uie:PropertyField name="TimeSpawn" />
+        <ui:VisualElement name="RandomTimeWrap" style="flex-grow: 1; flex-direction: row; align-self: stretch; width: 80%; margin-left: 3px;">
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; width: 48%;">
+                <ui:Label tabindex="-1" text="Min Time" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MinTimeLabel" style="width: 60%;" />
+                <uie:PropertyField name="MinTime" style="width: 35%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; width: 48%;">
+                <ui:Label tabindex="-1" text="Max Time" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MaxTimeLabel" style="width: 60%;" />
+                <uie:PropertyField name="MaxTime" style="width: 35%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

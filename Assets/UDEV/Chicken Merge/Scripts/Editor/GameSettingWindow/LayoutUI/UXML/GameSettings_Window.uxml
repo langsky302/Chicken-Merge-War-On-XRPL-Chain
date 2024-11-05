@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/UDEV/Merge%20Shooter/Scripts/Editor/GameSettingWindow/LayoutUI/USS/GameSettings_Window.uss?fileID=7433441132597879392&amp;guid=18d5cde27036c5946845a75b358a24b4&amp;type=3#GameSettings_Window" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <UDEV.UI.Editor.SplitView style="width: 100%; display: flex; min-height: 600px; min-width: 800px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+            <ui:VisualElement name="left-column" style="flex-grow: 1; width: 35%; background-color: rgba(255, 255, 255, 0); margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; font-size: 14px;">
+                <ui:Label tabindex="-1" text="SETTINGS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="game-settings-label" style="background-color: rgb(50, 130, 0); -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 0; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; -unity-text-align: upper-center;" />
+                <ui:ListView focusable="true" name="left-menu-list" virtualization-method="DynamicHeight" show-border="false" fixed-item-height="30" show-alternating-row-backgrounds="None" show-add-remove-footer="false" style="margin-top: 10px; margin-bottom: 10px; -unity-text-align: upper-left; -unity-font-style: normal; font-size: 18px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="right-column-wrap" style="flex-grow: 1; width: 65%; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="settings-label" style="-unity-text-align: upper-center; background-color: rgb(245, 170, 6); -unity-font-style: bold; color: rgb(255, 255, 255); font-size: 18px; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px;" />
+                <ui:VisualElement name="right-column" style="flex-grow: 1; margin-top: 10px; margin-bottom: 10px;" />
+            </ui:VisualElement>
+        </UDEV.UI.Editor.SplitView>
+    </ui:VisualElement>
+    <ui:Label tabindex="-1" text="Developed by UDEV TEAM" parse-escape-sequences="true" display-tooltip-when-elided="true" name="copyright-mark" style="-unity-font-style: bold-and-italic; -unity-text-align: upper-center; color: rgb(128, 127, 127); margin-bottom: 5px; position: relative; top: auto; left: auto; flex-grow: 1; flex-shrink: 1;" />
+</ui:UXML>

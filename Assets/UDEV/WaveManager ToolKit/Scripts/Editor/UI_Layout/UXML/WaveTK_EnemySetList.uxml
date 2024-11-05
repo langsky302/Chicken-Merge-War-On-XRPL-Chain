@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="EnemySetInfo" style="flex-grow: 1;">
+        <ui:Foldout text="Foldout" name="EnemySetListFoldout">
+            <ui:VisualElement name="InfoLabels" style="flex-grow: 1; flex-direction: row; align-self: stretch; justify-content: space-between; background-color: rgb(245, 172, 66); padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; margin-top: 5px; margin-bottom: 5px;">
+                <ui:Label tabindex="-1" text="Pool Key" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PoolKeyLabel" style="width: 27%; font-size: 12px; color: rgb(0, 0, 0); -unity-font-style: bold; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left; align-self: stretch; justify-content: space-between; flex-grow: 1;" />
+                <ui:Label tabindex="-1" text="Weight" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WeighLabel" style="width: 13%; font-size: 12px; color: rgb(0, 0, 0); -unity-font-style: bold; align-self: auto; justify-content: flex-start; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; -unity-text-align: middle-left; flex-grow: 1;" />
+                <ui:Label tabindex="-1" text="Spawn Rate" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SpawnRateLabel" style="width: 35%; font-size: 12px; color: rgb(0, 0, 0); -unity-font-style: bold; align-self: stretch; justify-content: space-between; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left; flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:ListView focusable="true" name="EnemySetListView" virtualization-method="DynamicHeight" style="width: 100%;" />
+            <ui:Button text="Add New Enemy" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddNewEnemyBtn" style="align-self: center; justify-content: space-between; width: 40%; background-color: rgb(146, 190, 0); margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 6px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

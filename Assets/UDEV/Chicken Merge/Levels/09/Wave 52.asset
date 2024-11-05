@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f160f549d22238e4b93270b3bc1c35e1, type: 3}
+  m_Name: Wave 52
+  m_EditorClassIdentifier: 
+  spawners:
+  - type: 1
+    enemyPoolKey: None
+    enemySet: {fileID: 11400000, guid: d264279f2a564b542b5fbad6b191a6f3, type: 2}
+    randomEnemy: 1
+    totalEnemy: 45
+    randomTime: 1
+    timeSpawn: 0
+    timeRange: {x: 0.5, y: 1.5}
+    isBoss: 0
+  - type: 1
+    enemyPoolKey: None
+    enemySet: {fileID: 11400000, guid: df8a8130c1e460b41824724419e43d09, type: 2}
+    randomEnemy: 1
+    totalEnemy: 15
+    randomTime: 1
+    timeSpawn: 0
+    timeRange: {x: 3, y: 7}
+    isBoss: 0
+  totalEnemy: 0
+  enemyKilled: 0

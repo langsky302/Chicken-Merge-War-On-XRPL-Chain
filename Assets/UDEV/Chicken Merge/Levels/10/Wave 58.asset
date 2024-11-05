@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f160f549d22238e4b93270b3bc1c35e1, type: 3}
+  m_Name: Wave 58
+  m_EditorClassIdentifier: 
+  spawners:
+  - type: 1
+    enemyPoolKey: None
+    enemySet: {fileID: 11400000, guid: ecb6f3da8442c02489583a78e4a17e37, type: 2}
+    randomEnemy: 1
+    totalEnemy: 25
+    randomTime: 1
+    timeSpawn: 0
+    timeRange: {x: 0.5, y: 1.5}
+    isBoss: 0
+  - type: 1
+    enemyPoolKey: None
+    enemySet: {fileID: 11400000, guid: 12cc3e2cb3896ba4786c7ec05f058570, type: 2}
+    randomEnemy: 1
+    totalEnemy: 50
+    randomTime: 1
+    timeSpawn: 0
+    timeRange: {x: 0.5, y: 1.5}
+    isBoss: 0
+  - type: 1
+    enemyPoolKey: None
+    enemySet: {fileID: 11400000, guid: d264279f2a564b542b5fbad6b191a6f3, type: 2}
+    randomEnemy: 1
+    totalEnemy: 50
+    randomTime: 1
+    timeSpawn: 0
+    timeRange: {x: 0.5, y: 1.5}
+    isBoss: 0
+  totalEnemy: 0
+  enemyKilled: 0

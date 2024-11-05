@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3303840964483483934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 945613393944264420}
+  - component: {fileID: 5264819478442451374}
+  m_Layer: 0
+  m_Name: WaveController 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &945613393944264420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3303840964483483934}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5264819478442451374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3303840964483483934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a8a4ae9e63c404783f6c87cbe6364c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+  waves:
+  - {fileID: 11400000, guid: 8c0dc00c295ea124c8e0f957208d1e8a, type: 2}
+  - {fileID: 11400000, guid: bda150731fd2dc34a901e3b5567a68bf, type: 2}
+  - {fileID: 11400000, guid: f401ad72115f18843b477ed56977fd59, type: 2}
+  - {fileID: 11400000, guid: 03fc97a5d6eb7444681fb64071ddff1a, type: 2}
+  - {fileID: 11400000, guid: 3e456dae1b5cfc24b8860e69f4d5465a, type: 2}
+  enemyRemainings: []
+  spawnPosition: {x: 0, y: 0, z: 0}
+  spawnAtTransform: 0
+  spawnTransforms: []
+  randomSpawnPos: {x: 0, y: 0, z: 0}
+  OnFinalWaveFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAllSpawnFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnWaveHasFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnWaveStarts:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResetWave:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEnemySpawned:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,11 @@
+.show {
+	display : flex;
+}
+
+.hide {
+	display : none;
+}
+
+Foldout {
+	margin-left: 0px;
+}

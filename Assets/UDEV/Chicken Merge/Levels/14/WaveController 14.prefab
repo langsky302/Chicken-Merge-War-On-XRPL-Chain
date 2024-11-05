@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2313883059555258317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4910683889274109455}
+  - component: {fileID: 8949135011146953996}
+  m_Layer: 0
+  m_Name: WaveController 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4910683889274109455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313883059555258317}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8949135011146953996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313883059555258317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a8a4ae9e63c404783f6c87cbe6364c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+  waves:
+  - {fileID: 11400000, guid: 13d5eba69078adb4a8afbb975e334950, type: 2}
+  - {fileID: 11400000, guid: de631dddd117bf641ba617d7619493e8, type: 2}
+  - {fileID: 11400000, guid: bdd88f8ce86111e419dae255c8cbec87, type: 2}
+  - {fileID: 11400000, guid: 9383cb7f65813df408a3c6ff5a514239, type: 2}
+  - {fileID: 11400000, guid: 6ddc4b631d9fe35448a903d5a92f2e5e, type: 2}
+  - {fileID: 11400000, guid: c83562fa62be4d14cb3232e9ffd25ab6, type: 2}
+  - {fileID: 11400000, guid: 2121ff4d68c7b0c4e9bc50dfe9b9e8e2, type: 2}
+  - {fileID: 11400000, guid: cb22ba8c233b04347befce7b96973556, type: 2}
+  - {fileID: 11400000, guid: 1b2a259c65e6b144a9c15c0d9f1a3072, type: 2}
+  - {fileID: 11400000, guid: 9bdc5293bdb90e34ba99ba4c4e6bf94e, type: 2}
+  - {fileID: 11400000, guid: 65a78c8f9428b984aa0ec29f01116c9f, type: 2}
+  - {fileID: 11400000, guid: eb504a6a4bae54b4c888747694a674fa, type: 2}
+  enemyRemainings: []
+  spawnPosition: {x: 0, y: 0, z: 0}
+  spawnAtTransform: 0
+  spawnTransforms: []
+  randomSpawnPos: {x: 0, y: 0, z: 0}
+  OnFinalWaveFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAllSpawnFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnWaveHasFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnWaveStarts:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResetWave:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEnemySpawned:
+    m_PersistentCalls:
+      m_Calls: []

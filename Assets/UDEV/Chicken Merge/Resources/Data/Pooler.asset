@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a461b204652c724b8f5ab96761b9107, type: 3}
+  m_Name: Pooler
+  m_EditorClassIdentifier: 
+  id: 1680704275:905098:409771
+  target: 0
+  categories:
+  - name: Chicken
+    id: 1680704495:387493:520658
+  - name: Projectile
+    id: 1682653455:426245:481503
+  - name: Vfx
+    id: 1682672990:358474:764633
+  - name: Collectable
+    id: 1699849703_25117_705164
+  - name: Enemy
+    id: 1700124374_546592_520359
+  - name: Other
+    id: 1700233972_708377_61896
+  pools:
+  - poolName: 01
+    id: 1680704512:57089:386943
+    prefab: {fileID: 2437005070146723493, guid: d32b17745c175924fb03fbcfcf92e76b, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1680704495:387493:520658
+  - poolName: 02
+    id: 1680704551:864328:635386
+    prefab: {fileID: 2437005070146723493, guid: 69e885b9d750a7c4184a1d43325a0024, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1680704495:387493:520658
+  - poolName: 03
+    id: 1680704561:739938:651646
+    prefab: {fileID: 2437005070146723493, guid: 0312e3ab1402d5a4ca51d1fe329d9327, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1680704495:387493:520658
+  - poolName: 04
+    id: 1680704569:395734:173968
+    prefab: {fileID: 2437005070146723493, guid: 8915a92438c0c6c4eb307f1e038db530, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1680704495:387493:520658
+  - poolName: 05
+    id: 1680704577:336461:106235
+    prefab: {fileID: 2437005070146723493, guid: 479b080076b6f6f4983ff94ed1510ce1, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1680704495:387493:520658
+  - poolName: 06
+    id: 1680704586:571559:252692
+    prefab: {fileID: 2437005070146723493, guid: 548f06f007554894096a90b3b8311111, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1680704495:387493:520658
+  - poolName: 07
+    id: 1680704595:480305:933755
+    prefab: {fileID: 2437005070146723493, guid: 6ced2921dfee83d43b928a8b496060b8, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1680704495:387493:520658
+  - poolName: 08
+    id: 1680704604:85195:852336
+    prefab: {fileID: 2437005070146723493, guid: b4e33fd060f7ce84f8486e07ad4750cf, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1680704495:387493:520658
+  - poolName: 09
+    id: 1680704612:888563:842796
+    prefab: {fileID: 2437005070146723493, guid: 4391539218d2bfe4597a88f73c73ccce, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1680704495:387493:520658
+  - poolName: 10
+    id: 1680704620:203788:126052
+    prefab: {fileID: 2437005070146723493, guid: 5905220de86f1cf40bdbe1f9b97fcdde, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1680704495:387493:520658
+  - poolName: 01
+    id: 1682653466:167525:737461
+    prefab: {fileID: 3465667304443601142, guid: 2945502a45fa9de4f8dc1ea379929299, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682653455:426245:481503
+  - poolName: 02
+    id: 1682653477:860765:95611
+    prefab: {fileID: 3465667304443601142, guid: 4d26577c0dce595478cd15340953462b, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682653455:426245:481503
+  - poolName: 03
+    id: 1682653485:790323:63244
+    prefab: {fileID: 3465667304443601142, guid: aba0fc42daa556c4e958f06256b3a03f, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682653455:426245:481503
+  - poolName: Shooting Impact
+    id: 1682672999:244839:679062
+    prefab: {fileID: 179066, guid: bcd34d169e9abd34bb3484f9e3ddf57c, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682672990:358474:764633
+  - poolName: Explosion 1
+    id: 1699849623_358502_915831
+    prefab: {fileID: 4997122023187388995, guid: 9d17238d593f8e541b1673f4b15f357b, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682672990:358474:764633
+  - poolName: Coin
+    id: 1699849714_271979_127488
+    prefab: {fileID: 1552593926573250324, guid: 9df80798fc464d94b8ba73650d2bf7b2, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1699849703_25117_705164
+  - poolName: Skill
+    id: 1699849725_269279_512370
+    prefab: {fileID: 3015939714663572075, guid: cc4eae22ace1cc24baaa95d6f2308213, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1699849703_25117_705164
+  - poolName: Chest
+    id: 1700067122_256542_305746
+    prefab: {fileID: 4316198203967076180, guid: 739f6f1dce17d334eb6bab9c7e2c4770, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1699849703_25117_705164
+  - poolName: 01
+    id: 1700124382_910797_926890
+    prefab: {fileID: 1291786279419269208, guid: 851a4e9d35c18144fa1ef7b2689304b0, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: 02
+    id: 1700124395_765669_433538
+    prefab: {fileID: 1291786279419269208, guid: 9dd10223cc05df44d9e66580cfc770c3, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: 03
+    id: 1700124403_376506_636807
+    prefab: {fileID: 1291786279419269208, guid: 0c4cb159ce044df469077cbc392652b1, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: 04
+    id: 1700124411_393772_153710
+    prefab: {fileID: 1291786279419269208, guid: 2a2595a61c4d2f244bca767a87713412, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: 05 Bomb
+    id: 1700124420_66380_664140
+    prefab: {fileID: 1291786279419269208, guid: 30da6d5a1cd680e45bf1a6e9bf10f445, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: 06
+    id: 1700124429_536547_194706
+    prefab: {fileID: 1291786279419269208, guid: c37724ca9813b80458463edada71747e, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: 07
+    id: 1700124438_882976_824926
+    prefab: {fileID: 1291786279419269208, guid: 8379dc0ee3a298f45b14079a1d35ea6b, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: 08
+    id: 1700124452_166254_6376
+    prefab: {fileID: 1291786279419269208, guid: 1eb9b78177c76904cbe645c08c7cf343, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: 09
+    id: 1700124462_482880_890166
+    prefab: {fileID: 1291786279419269208, guid: 367759091bc15784badf6baba50e1be4, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: 10 Bomb
+    id: 1700124470_14151_540249
+    prefab: {fileID: 1291786279419269208, guid: ebedd4bf2f7416048be060d3bad46379, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: Hit
+    id: 1700150245_801673_494084
+    prefab: {fileID: 195742, guid: c83fb3ef04bb383408bb2064b89690b2, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682672990:358474:764633
+  - poolName: Health Bar
+    id: 1700233982_342890_943399
+    prefab: {fileID: 3568920897709928781, guid: ea2d850730186b541a5c08e064a54001, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700233972_708377_61896
+  - poolName: Explosion 2
+    id: 1700674407_360145_518580
+    prefab: {fileID: 5225581375859782436, guid: 74a771ef90af50045a500859fa080a34, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682672990:358474:764633
+  - poolName: Fireball Explosion
+    id: 1700923402_899121_957506
+    prefab: {fileID: 5225581375859782436, guid: 5f06f0b286449074398d05bd684f3a58, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682672990:358474:764633
+  - poolName: DamageTxt
+    id: 1703518007:311328:657019
+    prefab: {fileID: 75055215732906019, guid: 2fee11dd7c006514c80600fce63ca723, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700233972_708377_61896
+  - poolName: Fireball
+    id: 1705719607:484778:889900
+    prefab: {fileID: 2104258888128369400, guid: 1da3e2615e344d04d8141de77a0f3d8f, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682653455:426245:481503
+  - poolName: Missile
+    id: 1705720348:311868:347895
+    prefab: {fileID: 2032396519940330175, guid: 6d48822a7ea003840b1b2572ec16a557, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682653455:426245:481503
+  - poolName: Explosion 3
+    id: 1705720622:203469:384272
+    prefab: {fileID: 6573673886456266361, guid: 2069f3449ee1a7f4083558e35224c3e6, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682672990:358474:764633
+  - poolName: Boss 1
+    id: 1706591903288902192896
+    prefab: {fileID: 8940248781308105211, guid: 2789bb66f0151814fad425185fc51ae6, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: Boss 2
+    id: 1706591917463153420191
+    prefab: {fileID: 8940248781308105211, guid: cb578f6d6b614eb499f6dab0f115e0a9, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: Boss 3
+    id: 1706591929563554409494
+    prefab: {fileID: 8940248781308105211, guid: f8df929db7d1c964ba8e9dd5155e5490, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: Boss 4
+    id: 1706591938424053292296
+    prefab: {fileID: 8940248781308105211, guid: c76e0a602bfed684e8f30e911f8aff42, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: Boss 5
+    id: 1706591947637189325904
+    prefab: {fileID: 8940248781308105211, guid: 1217511bce801b34c8de9488d00d27a9, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: Boss 6
+    id: 1706591957585339396554
+    prefab: {fileID: 8940248781308105211, guid: e708bbef34da4684296e5420f2ad5f0b, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: Boss 7
+    id: 1706591966767720933554
+    prefab: {fileID: 8940248781308105211, guid: 2079ce2df6d7ca240a6d1b714ba4f3a6, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: Boss 8
+    id: 1706591975261742578359
+    prefab: {fileID: 8940248781308105211, guid: 4cd11997463679a4d9c2e56159ca898d, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: Boss 9
+    id: 1706591984107813859779
+    prefab: {fileID: 8940248781308105211, guid: 98e6d2d19fbeffa4386920d671eef815, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1700124374_546592_520359
+  - poolName: ShieldGetHit
+    id: 1706692586507239293164
+    prefab: {fileID: 1079367280492256582, guid: b88fe243d7dd4b744b31c4a958d35400, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682672990:358474:764633
+  - poolName: SmokePuffs
+    id: 1706755736937610731521
+    prefab: {fileID: 100004, guid: 9a11d672c46ec404e9f5cefad3c1102e, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1682672990:358474:764633

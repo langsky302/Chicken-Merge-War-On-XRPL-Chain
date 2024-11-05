@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="global-settings-wrap" style="flex-grow: 1;">
+        <UDEV.UI.Editor.Inspector name="global-settings-inspector" />
+        <UDEV.UI.Editor.Inspector name="game-chest-settings-inspector" />
+        <ui:VisualElement name="dotween-settings-wrap" style="flex-grow: 1; margin-top: 10px; width: 95.3%; align-self: center; justify-content: space-between;">
+            <ui:Label tabindex="-1" text="DOTween Import Settings :" parse-escape-sequences="true" display-tooltip-when-elided="true" name="dotween-import-label" style="margin-bottom: 10px; -unity-font-style: bold;" />
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="link-to-dotween" style="color: rgb(238, 152, 0);" />
+            <ui:VisualElement name="bottom-buttons" style="flex-grow: 1; flex-direction: row; width: 100%; margin-top: 5px; align-self: center; justify-content: space-between;">
+                <ui:Button text="Add Scripting Define Symbol" parse-escape-sequences="true" display-tooltip-when-elided="true" name="add-dotween-ds" style="min-width: 35%; align-self: flex-start; margin-right: 0; margin-left: 0; background-color: rgb(131, 209, 0); -unity-font-style: normal;" />
+                <ui:Button text="Remove Scripting Define Symbol" parse-escape-sequences="true" display-tooltip-when-elided="true" name="remove-dotween-ds" style="min-width: 35%; align-self: flex-start; margin-right: 0; margin-left: 0; background-color: rgb(219, 0, 0); -unity-font-style: normal;" />
+            </ui:VisualElement>
+            <ui:Button text="Clear All Game Data" parse-escape-sequences="true" display-tooltip-when-elided="true" name="clear-all-game-data-btn" style="width: auto; align-self: flex-start; justify-content: space-around; margin-right: 5px; min-width: 35%; margin-left: 0; padding-right: 0; margin-top: 10px; color: rgb(255, 255, 255); background-color: rgb(255, 0, 0); -unity-font-style: bold; padding-top: 5px; padding-bottom: 5px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

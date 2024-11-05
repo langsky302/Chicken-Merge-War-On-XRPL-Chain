@@ -1,0 +1,1 @@
+{"id":"169971792743342836527","thumb":{"instanceID":28950},"type":4,"bonusRate":0.0,"description":"Gun Damage Up","maxLevel":5,"level":0,"upgradePrice":5000,"bonusRateUp":0.05000000074505806,"upgradePriceUp":5000}

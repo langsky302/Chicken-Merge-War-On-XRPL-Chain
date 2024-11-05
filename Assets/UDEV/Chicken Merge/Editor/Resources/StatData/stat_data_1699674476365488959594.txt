@@ -1,0 +1,1 @@
+{"id":"1699674476365488959594","thumb":{"instanceID":29572},"type":4,"bonusRate":0.0,"description":"Upgrade Shield Reduce","maxLevel":5,"level":0,"upgradePrice":3000,"bonusRateUp":0.05000000074505806,"upgradePriceUp":5000}

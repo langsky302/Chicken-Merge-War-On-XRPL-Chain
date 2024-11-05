@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b2448b1ac4e8643aa140a37d34891f, type: 3}
+  m_Name: AudioSO
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 8300000, guid: 5eba39aa4e011ec41995529dfbbfb3d5, type: 3}
+  levelCompleted: {fileID: 8300000, guid: d4b514b5db9460e4ab9644956a55e66c, type: 3}
+  upgradeSuccess: {fileID: 8300000, guid: a547de96dede32a45802d1c43817e901, type: 3}
+  buySuccess: {fileID: 8300000, guid: e2302cd8332b2e54f9efde22cd897a5a, type: 3}
+  buyBooster: {fileID: 8300000, guid: 7aff6316c37e9d0419e0505e8c6e3e64, type: 3}
+  gunUnlocked: {fileID: 8300000, guid: 7649b70cdecbd82419c08dd646f7fd26, type: 3}
+  reward: {fileID: 8300000, guid: 138f53596f6d25a4798be1461ab473a9, type: 3}
+  btnClick: {fileID: 8300000, guid: 918bade2b1c66bd42bbd3de7c4c3a2d3, type: 3}
+  bgms:
+  - {fileID: 8300000, guid: 5c80853eaa5344745b54a9674ead2396, type: 3}
+  menus:
+  - {fileID: 8300000, guid: 5a1dccb81f65306468f248754081ec7f, type: 3}

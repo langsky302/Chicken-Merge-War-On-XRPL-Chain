@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="ads-settings-wrap" style="flex-grow: 1;">
+        <uie:PropertyField name="ads-type-prop" />
+        <ui:VisualElement name="ads-settings" style="flex-grow: 1;">
+            <UDEV.UI.Editor.Inspector name="ads-settings-inspector" />
+            <ui:VisualElement name="ads-import-settings" style="flex-grow: 1; margin-top: 10px; width: 95.3%; justify-content: space-between; align-self: center;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ads-import-settings-label" style="margin-bottom: 10px; -unity-font-style: bold;" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ads-import-link" style="color: rgb(255, 172, 23); margin-bottom: 1px;" />
+                <ui:VisualElement name="bottom-buttons" style="flex-grow: 1; flex-direction: row; width: 100%; margin-top: 5px;">
+                    <ui:Button text="Add Scripting Define Symbol" parse-escape-sequences="true" display-tooltip-when-elided="true" name="add-ads-ds-btn" style="width: 35%; margin-right: 0; margin-left: 0; background-color: rgb(116, 200, 0);" />
+                    <ui:Button text="Remove Scripting Define Symbol" parse-escape-sequences="true" display-tooltip-when-elided="true" name="remove-ads-ds-btn" style="width: 35%; margin-right: 0; margin-left: 0; background-color: rgb(221, 0, 0);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

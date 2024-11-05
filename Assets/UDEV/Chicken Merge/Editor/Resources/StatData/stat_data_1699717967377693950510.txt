@@ -1,0 +1,1 @@
+{"id":"1699717967377693950510","thumb":{"instanceID":28940},"type":3,"bonusRate":0.0,"description":"Coins Collected Up","maxLevel":5,"level":0,"upgradePrice":3000,"bonusRateUp":0.05000000074505806,"upgradePriceUp":3000}

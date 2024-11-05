@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0278008a93327284a9fce98f78eda836, type: 3}
+  m_Name: ChickenShopData
+  m_EditorClassIdentifier: 
+  gunStats:
+  - {fileID: 11400000, guid: d2cc707d725a34549b6249cdefd35e1a, type: 2}
+  - {fileID: 11400000, guid: eee1bb832dbefac4eb9e0b83ad1b683d, type: 2}
+  - {fileID: 11400000, guid: 4f1ada198f08a654484f74c8b06f63af, type: 2}
+  - {fileID: 11400000, guid: c9eda2c58645b514397f97d80cc9bacb, type: 2}
+  - {fileID: 11400000, guid: 11759e59317fa634f82072aa6e403ee7, type: 2}
+  - {fileID: 11400000, guid: 306b6f50cab6e1c4daa2197aa4b8722c, type: 2}
+  - {fileID: 11400000, guid: fe95a38454d866a4eb79f2edac16450c, type: 2}
+  - {fileID: 11400000, guid: 67df39964c5ac4e4dab67cad4e4cf90f, type: 2}
+  - {fileID: 11400000, guid: 7d59a147f4c54bf4cbcc521b4a15be86, type: 2}
+  - {fileID: 11400000, guid: 2beee89597675204e90141cd8c29ac3b, type: 2}

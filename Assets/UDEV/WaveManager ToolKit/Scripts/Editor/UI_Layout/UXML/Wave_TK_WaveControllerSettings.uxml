@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1; justify-content: space-between; flex-direction: column; width: 100%;">
+        <uie:PropertyField name="SpawnAtTransform" />
+        <uie:PropertyField name="SpawnPosition" />
+        <uie:PropertyField name="SpawnTransforms" />
+        <uie:PropertyField name="RandomSpawnPosition" />
+    </ui:VisualElement>
+</ui:UXML>

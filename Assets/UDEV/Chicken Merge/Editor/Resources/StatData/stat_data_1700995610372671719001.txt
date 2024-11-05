@@ -1,0 +1,1 @@
+{"id":"1700995610372671719001","thumb":{"instanceID":30600},"hp":8.0,"damage":0.0,"moveSpeed":0.800000011920929,"maxMoveSpeed":10.0,"attackRate":0.0,"editorMaxLevel":50,"editorLevel":0,"coinBonusMultier":1,"hpUpRate":2.450000047683716,"moveSpeedUp":0.07999999821186066,"damageUp":0.0,"hpUpFactor":8.0,"moveSpeedUpFactor":25.0,"damageUpFactor":2.0}

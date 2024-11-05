@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; width: auto; flex-wrap: nowrap; align-items: stretch; align-self: auto; justify-content: space-between;">
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="WaveItemLabel" style="width: 45%; -unity-text-align: upper-left; -unity-font-style: bold; font-size: 14px;" />
+        <ui:Button text="Delete" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DeleteWaveBtn" style="width: 50%; flex-direction: column; background-color: rgb(185, 0, 14); color: rgb(255, 255, 255); -unity-font-style: bold; -unity-font: initial;" />
+    </ui:VisualElement>
+</ui:UXML>

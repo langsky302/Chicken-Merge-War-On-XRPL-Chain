@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="in-app-settings-wrap" style="flex-grow: 1;">
+        <UDEV.UI.Editor.Inspector name="in-app-settings-inspector" />
+        <ui:VisualElement name="bottom-buttons" style="flex-grow: 1; align-self: center; justify-content: space-between; width: 95.3%; align-items: stretch;">
+            <ui:Label tabindex="-1" text="Please enable In-App Purchases Service First !!!" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-right: 0; margin-left: 0; color: rgb(255, 165, 0);" />
+            <ui:VisualElement name="buttons-wrap" style="flex-grow: 1; justify-content: space-between; flex-direction: row; align-self: center; width: 100%;">
+                <ui:Button text="Add Scripting Define Symbol" parse-escape-sequences="true" display-tooltip-when-elided="true" name="add-iap-ds-btn" style="width: 35%; margin-right: 0; margin-left: 0; background-color: rgb(116, 200, 0); align-self: flex-start;" />
+                <ui:Button text="Remove Scripting Define Symbol" parse-escape-sequences="true" display-tooltip-when-elided="true" name="remove-iap-ds-btn" style="width: 35%; margin-right: 0; margin-left: 0; background-color: rgb(221, 0, 0); align-self: flex-start; justify-content: space-between;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

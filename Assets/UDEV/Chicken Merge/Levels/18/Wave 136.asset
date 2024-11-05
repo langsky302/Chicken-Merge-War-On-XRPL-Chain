@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f160f549d22238e4b93270b3bc1c35e1, type: 3}
+  m_Name: Wave 136
+  m_EditorClassIdentifier: 
+  spawners:
+  - type: 1
+    enemyPoolKey: None
+    enemySet: {fileID: 11400000, guid: 145119ef07e053647846388a96130d22, type: 2}
+    randomEnemy: 1
+    totalEnemy: 80
+    randomTime: 1
+    timeSpawn: 0
+    timeRange: {x: 0.5, y: 1}
+    isBoss: 0
+  - type: 1
+    enemyPoolKey: None
+    enemySet: {fileID: 11400000, guid: 2a9f847b58be85340b3648669a97ad84, type: 2}
+    randomEnemy: 1
+    totalEnemy: 80
+    randomTime: 1
+    timeSpawn: 0
+    timeRange: {x: 0.5, y: 1}
+    isBoss: 0
+  - type: 1
+    enemyPoolKey: None
+    enemySet: {fileID: 11400000, guid: c5c325ce95d1809409f5806f53deefd4, type: 2}
+    randomEnemy: 1
+    totalEnemy: 50
+    randomTime: 1
+    timeSpawn: 0
+    timeRange: {x: 0.5, y: 1.5}
+    isBoss: 0
+  - type: 1
+    enemyPoolKey: None
+    enemySet: {fileID: 11400000, guid: f4aed5f38fe0ffa43aa63408948257ee, type: 2}
+    randomEnemy: 1
+    totalEnemy: 80
+    randomTime: 1
+    timeSpawn: 0
+    timeRange: {x: 0.5, y: 1}
+    isBoss: 0
+  totalEnemy: 0
+  enemyKilled: 0

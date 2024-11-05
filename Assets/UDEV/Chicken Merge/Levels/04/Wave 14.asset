@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f160f549d22238e4b93270b3bc1c35e1, type: 3}
+  m_Name: Wave 14
+  m_EditorClassIdentifier: 
+  spawners:
+  - type: 1
+    enemyPoolKey: 1706591903288902192896
+    enemySet: {fileID: 0}
+    randomEnemy: 0
+    totalEnemy: 4
+    randomTime: 1
+    timeSpawn: 0
+    timeRange: {x: 2, y: 7}
+    isBoss: 1
+  totalEnemy: 0
+  enemyKilled: 0

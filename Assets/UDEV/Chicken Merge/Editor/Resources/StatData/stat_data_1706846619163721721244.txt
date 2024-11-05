@@ -1,0 +1,1 @@
+{"id":"1706846619163721721244","thumb":{"instanceID":28960},"type":0,"bonusRate":0.0,"description":"Upgrade Price Reduce","maxLevel":5,"level":0,"upgradePrice":3000,"bonusRateUp":0.05000000074505806,"upgradePriceUp":5000}

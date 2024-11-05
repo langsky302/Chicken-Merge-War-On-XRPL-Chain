@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="EnemySetWrap" style="flex-grow: 1; flex-direction: column; justify-content: space-between; align-items: stretch; align-self: stretch;">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-self: stretch; justify-content: space-between;">
+            <uie:PropertyField name="EnemySetSO" style="width: 83%;" />
+            <ui:Button text="Create" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddEnemyBtn" style="background-color: rgb(92, 214, 0); color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(0, 0, 0); width: 15%;" />
+            <ui:Button text="Delete" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DeleteEnemyBtn" style="background-color: rgb(214, 15, 0); color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(0, 0, 0); width: 15%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,1 @@
+{"id":"1707799691807872840196","thumb":{"instanceID":28946},"type":2,"bonusRate":0.0,"description":"Critical Damage Up","maxLevel":5,"level":0,"upgradePrice":5000,"bonusRateUp":0.05000000074505806,"upgradePriceUp":5000}
